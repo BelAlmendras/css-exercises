@@ -1,35 +1,35 @@
-# The Holy Grail of Layout
+# El Santo Grial del Maquetado
 
-In this last flexbox exercise you're going to recreate an incredibly common website layout. It is so common that it is often called the [Holy Grail](https://www.google.com/search?q=holy+grail+layout&tbm=isch&sclient=img) layout... and with flexbox it is actually pretty easy to pull off.
+En este último ejercicio de flexbox vas a recrear una maquetación de sitio web increíblemente común. Es tan habitual que a menudo se la llama diseño [Holy Grail](https://www.google.com/search?q=holy+grail+layout&tbm=isch&sclient=img)... y con flexbox en realidad es bastante fácil de lograr.
 
-As with the previous exercise, we've left a little more for you to do.
+Como en el ejercicio anterior, hemos dejado un poco más para que hagas tú.
 
-### Hints
-- You will need to change the flex-direction to push the footer down.
-- You will need to add some divs as containers to get things to line up correctly.
-- `flex-wrap` will help get the cards aligned correctly.
--  Make sure you define how much space the cards should take up, in order for `flex-wrap` to work as intended.
+### Pistas
+- Necesitarás cambiar la `flex-direction` para empujar el footer hacia abajo.
+- Tendrás que añadir algunos divs como contenedores para que las cosas se alineen correctamente.
+- `flex-wrap` ayudará a que las tarjetas se alineen de forma adecuada.
+- Asegúrate de definir cuánto espacio deben ocupar las tarjetas para que `flex-wrap` funcione como se espera.
 
-## Desired outcome
+## Resultado deseado
 
 ![desired outcome](./desired-outcome.png)
 
-The number of cards lined up in that section will change based on the width of your screen, so don't stress about getting _exactly_ a 2x3 or 3x2 grid.
+El número de tarjetas que aparecen en esa sección cambiará según el ancho de tu pantalla, así que no te preocupes por obtener exactamente una cuadrícula 2x3 o 3x2.
 
-On a smaller screen it will look like this:
+En una pantalla más pequeña se verá así:
 
 ![smaller](./desired-outcome-smaller.png)
 
-Note: The emojis may instead show up as one or several text symbols (e.g. &#9734;&#9794;) if you don't have an emoji-based font family installed on your operating system. This does not affect the exercise and can be ignored.
+Nota: Los emojis pueden aparecer como uno o varios símbolos de texto (p. ej. &#9734;&#9794;) si no tienes instalada una familia tipográfica basada en emoji en tu sistema operativo. Esto no afecta al ejercicio y puede ignorarse.
 
-### Self Check
-- The header text is size 32px and weight 900.
-- The header text is vertically centered and 16px from the edge of the screen.
-- The footer is pushed to the bottom of the screen (the footer may go _below_ the bottom of the screen if the content of the 'cards' section overflows and/or if your screen is shorter).
-- The footer text is centered horizontally and vertically.
-- The sidebar and cards take up all available space above the footer.
-- The sidebar is 300px wide (and it doesn't shrink).
-- The sidebar links are size 24px, are white, and do not have the underline text decoration.
-- The sidebar has 16px padding.
-- There is 48px padding around the 'cards' section.
-- The cards are arranged horizontally, but wrap to multiple lines when they run out of room on the page.
+### Comprobación
+- El texto del header tiene tamaño 32px y peso 900.
+- El texto del header está centrado verticalmente y a 16px del borde de la pantalla.
+- El footer está empujado hacia la parte inferior de la pantalla (el footer puede ir por debajo de la parte inferior de la pantalla si el contenido de la sección de 'cards' desborda y/o si tu pantalla es más corta).
+- El texto del footer está centrado horizontal y verticalmente.
+- La barra lateral (sidebar) y las tarjetas ocupan todo el espacio disponible por encima del footer.
+- La sidebar tiene 300px de ancho (y no se encoge).
+- Los enlaces de la sidebar tienen tamaño 24px, son blancos y no tienen la decoración de subrayado.
+- La sidebar tiene 16px de padding.
+- Hay 48px de padding alrededor de la sección de 'cards'.
+- Las tarjetas se disponen horizontalmente, pero se ajustan a varias líneas cuando se quedan sin espacio en la página.

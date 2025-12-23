@@ -1,20 +1,20 @@
-# A Basic Header
+# Un encabezado básico
 
-Use flexbox rules to create this very common webpage header style. The benefit to using flex here is that everything should be _flexible_. Check out the two screenshots below to get an idea of how it should scale with your screen. Besides flex rules, you'll also want to add some rules for margin and padding. (Hint: `ul`s have some default margin/padding that you will need to deal with.)
+Usa reglas de flexbox para crear este estilo de encabezado muy común en páginas web. El beneficio de usar flex aquí es que todo debe ser _flexible_. Revisa las dos capturas de pantalla más abajo para hacerte una idea de cómo debe escalar con tu pantalla. Además de reglas flex, también querrás añadir algunas reglas para margin y padding. (Pista: los `ul` tienen margen/relleno por defecto que necesitarás ajustar.)
 
-## Desired Outcome
+## Resultado deseado
 
-narrow:
+estrecho:
 ![narrow](./desired-outcome-narrow.png)
 
-wide: 
+ancho:
 ![wide](./desired-outcome-wide.png)
 
-### Self Check
-- There is space between all items and the edge of the header (specific px amount doesn't matter here).
-- Logo is centered vertically and horizontally.
-- list-items are horizontal, and are centered vertically inside the header.
-- left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized.
-- Your solution does not use floats, inline-block, or absolute positioning.
+### Comprobación
+- Hay espacio entre todos los elementos y el borde del encabezado (la cantidad específica en px no importa aquí).
+- El logo está centrado vertical y horizontalmente.
+- Los elementos de la lista están en horizontal y centrados verticalmente dentro del encabezado.
+- Los enlaces de la izquierda y de la derecha están empujados hasta los extremos izquierdo y derecho, y se mantienen en el borde del encabezado cuando se cambia el tamaño de la página.
+- Tu solución no usa floats, inline-block ni posicionamiento absoluto.
 
-- Note: For this exercise, it's completely acceptable to not match the font-family.
+- Nota: Para este ejercicio, es completamente aceptable no coincidir con la familia tipográfica.

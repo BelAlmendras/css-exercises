@@ -1,21 +1,21 @@
-# Another common header style
+# Otro estilo común de encabezado
 
-We're starting to sneak in a little more CSS that you haven't seen yet. Don't worry about this for now; we just want things to look a little bit prettier, and this CSS will not interfere with your task.
+Estamos empezando a introducir un poco más de CSS que quizás aún no hayas visto. No te preocupes por ello ahora; solo queremos que las cosas se vean un poco más bonitas, y este CSS no interferirá con tu tarea.
 
-For this one you will probably need to edit the HTML a little bit. Often with flexbox you need to add containers around things to make them go where you need them to go. In this case, you probably want to separate the items that go on the left and right of the header.
+Para este ejercicio probablemente necesitarás editar un poco el HTML. A menudo con flexbox necesitas añadir contenedores alrededor de elementos para colocarlos donde los necesitas. En este caso, probablemente querrás separar los elementos que van a la izquierda y a la derecha del encabezado.
 
-Just like you did in the `02-flex-header` exercise, you'll be nesting flex containers inside each other.
+Al igual que hiciste en el ejercicio `02-flex-header`, anidarás contenedores flex unos dentro de otros.
 
-## Desired outcome
-As with the last example, this one needs to be flexible in the middle, with items pushed to the left and right.
+## Resultado deseado
+Como en el ejemplo anterior, el centro debe ser flexible, con elementos empujados hacia la izquierda y la derecha.
 
 ![png](./desired-outcome.png)
 
 ![gif](./desired-outcome.gif)
 
-### Self Check
-- Everything is centered vertically inside the header.
-- There is 8px space between everything and the edge of the header.
-- Items are arranged horizontally as seen in the outcome image.
-- There is 16px between each item on both sides of the header.
-- flex is used to arrange everything.
+### Comprobación
+- Todo está centrado verticalmente dentro del encabezado.
+- Hay 8px de espacio entre todo y el borde del encabezado.
+- Los elementos están dispuestos horizontalmente como se ve en la imagen de resultado.
+- Hay 16px entre cada elemento en ambos lados del encabezado.
+- Se usa flex para organizar todo.
